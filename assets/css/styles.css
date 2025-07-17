@@ -122,8 +122,8 @@ nav h2 {
 /*! ================================================================== */
 
 .section-container {
-  padding-top: 20px;
-  padding-left: 14px;
+  padding-top: 4%;
+  padding-left: 4%;
 }
 
 .section__title {
@@ -149,7 +149,7 @@ nav h2 {
   text-align: center;
   align-content: center;
   position: absolute;
-  transform: translate(325px, -80px);
+  transform: translate(250%, -130%);
 }
 
 .section__btn button {
@@ -461,7 +461,8 @@ nav h2 {
 /*! ================================================================== */
 
 footer {
-  height: 28vh;
+  min-height: 11rem;
+  /* height: 28vh; */
   background-color: var(--footer-color);
 }
 

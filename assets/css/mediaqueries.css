@@ -1,4 +1,8 @@
 @media only screen and (min-width: 48em) {
+  .section__btn {
+    transform: translate(650%, -130%);
+  }
+
   .works__gallery {
     flex-direction: row;
     flex-wrap: wrap;
