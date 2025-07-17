@@ -4,66 +4,80 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/mediaqueries.css" />
     <title>New Interior</title>
   </head>
   <body>
     <header>
       <section class="hero">
-        <nav class="nav">
-          <!-- # SC 36px - 36px -->
+        <nav>
+          <!-- # SC 36px - 36px (48) -->
           <h2>New Interior.</h2>
-          <div class="nav__menu"></div>
+          <section class="nav__menu">
+            <div></div>
+            <div></div>
+            <div></div>
+          </section>
         </nav>
-        <!-- # NIX 56px - 39.2px  -->
-        <h1 class="header__title">SLIM & STYLISH</h1>
-        <!-- # SC 22.4px - 16.8 px-->
-        <p class="header__subtitle">Modern Design & Competent Service.</p>
+        <section class="hero__header">
+          <!-- # NIX 56px - 39.2px (52) -->
+          <h1 class="header__title">SLIM & STYLISH</h1>
+          <!-- # SC 22.4px - 16.8 px-->
+          <p class="header__subtitle">Modern Design & Competent Service.</p>
+        </section>
       </section>
     </header>
 
     <main>
       <section class="works">
-        <!-- # SAN 36px - 36px -->
-        <h2 class="works__title">Our Latest Works</h2>
-        <!-- # HEL 14px - 14 px-->
-        <p class="works__subtitle">Take a look at some of our recent products</p>
-        <article class="btn__work">
-          <!-- # HEL 18px - 18px -->
-          <a href=""><button type="button">View All</button></a>
-        </article>
+        <section class="works-container section-container">
+          <!-- # SAN 36px - 36px -->
+          <h2 class="works__title section__title">Our Latest Works</h2>
+          <!-- # HEL 14px - 14 px-->
+          <p class="works__subtitle section__subtitle">Take a look at some of our recent products</p>
+          <article class="btn__work section__btn">
+            <!-- # HEL 18px - 18px -->
+            <a href=""><button type="button">View All</button></a>
+          </article>
+        </section>
         <section class="works__gallery">
-          <picture class="grid__section">
-            <img class="grid__section__img" src="" alt="" />
-            <article class="grid__section__hover__btn">
-              <!-- # HEL hoverlink  - 14px -->
-              <a href=""><button type="button">Lorem Rocks</button></a>
-            </article>
-
-            <img class="grid__section__img" src="" alt="" />
+          <section class="grid__section">
+            <img class="grid__section__img" src="./assets/img/interior-1.png" alt="" />
+            <!-- # HEL hoverlink  - 14px -->
             <article class="grid__section__hover__btn">
               <a href=""><button type="button">Lorem Rocks</button></a>
             </article>
-
-            <img class="grid__section__img" src="" alt="" />
+          </section>
+          <section class="grid__section">
+            <img class="grid__section__img" src="./assets/img/interior-2.png" alt="" />
             <article class="grid__section__hover__btn">
               <a href=""><button type="button">Lorem Rocks</button></a>
             </article>
-
-            <img class="grid__section__img" src="" alt="" />
+          </section>
+          <section class="grid__section">
+            <img class="grid__section__img" src="./assets/img/interior-3.png" alt="" />
             <article class="grid__section__hover__btn">
               <a href=""><button type="button">Lorem Rocks</button></a>
             </article>
-
-            <img class="grid__section__img" src="" alt="" />
+          </section>
+          <section class="grid__section">
+            <img class="grid__section__img" src="./assets/img/interior-4.png" alt="" />
             <article class="grid__section__hover__btn">
               <a href=""><button type="button">Lorem Rocks</button></a>
             </article>
-
-            <img class="grid__section__img" src="" alt="" />
+          </section>
+          <section class="grid__section">
+            <img class="grid__section__img" src="./assets/img/interior-5.png" alt="" />
             <article class="grid__section__hover__btn">
               <a href=""><button type="button">Lorem Rocks</button></a>
             </article>
-          </picture>
+          </section>
+          <section class="grid__section">
+            <img class="grid__section__img" src="./assets/img/interior-6.png" alt="" />
+            <article class="grid__section__hover__btn">
+              <a href=""><button type="button">Lorem Rocks</button></a>
+            </article>
+          </section>
         </section>
       </section>
 
@@ -76,8 +90,8 @@
 
           <section class="services__list">
             <article class="services__item">
-              <img class="services__item__icon" src="" alt="Paper Plane icon" />
-              <!-- # SANS 30px - 30px -->
+              <img class="services__item__icon" src="./assets/img/Icon.svg" alt="Paper Plane icon" />
+              <!-- # SAN 30px - 30px -->
               <h3 class="services__item-title">Concepts</h3>
               <!-- # HEL 14px - 14px -->
               <p class="services__item-text">
@@ -86,7 +100,7 @@
               </p>
             </article>
             <article class="services__item">
-              <img class="services__item__icon" src="" alt="Heart icon" />
+              <img class="services__item__icon" src="./assets/img/Icon-3.svg" alt="Heart icon" />
               <h3 class="services__item-title">Colors</h3>
               <p class="services__item-text">
                 In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam
@@ -94,7 +108,7 @@
               </p>
             </article>
             <article class="services__item">
-              <img class="services__item__icon" src="" alt="Camera icon" />
+              <img class="services__item__icon" src="./assets/img/Icon-2.svg" alt="Camera icon" />
               <h3 class="services__item-title">Illustration</h3>
               <p class="services__item-text">
                 In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam
@@ -106,66 +120,69 @@
       </section>
 
       <section class="blog">
-        <!-- # SAN 36px - 36px -->
-        <h2 class="blog__title">From the Blog</h2>
-        <!-- # HEL 14px - 14px -->
-        <p class="blog__subtitle">Keep up with the latest happenings.</p>
-        <article class="btn__work">
-          <!-- # HEL 18px - 18px -->
-          <a href=""><button type="button">View All</button></a>
-        </article>
-
+        <section class="blog__container section-container">
+          <!-- # SAN 36px - 36px -->
+          <h2 class="blog__title section__title">From the Blog</h2>
+          <!-- # HEL 14px - 14px -->
+          <p class="blog__subtitle section__subtitle">Keep up with the latest happenings.</p>
+          <article class="btn__blog section__btn">
+            <!-- # HEL 18px - 18px -->
+            <a href=""><button type="button">View All</button></a>
+          </article>
+        </section>
         <section class="blog__list">
           <article class="blog__post">
-            <img class="blog__post__img" src="" alt="" />
+            <img class="blog__post__img" src="./assets/img/design-your-mind.png" alt="" />
             <!-- # SAN 30px - 30px -->
-            <h3 class="blog__post-title">Design Your Mind</h3>
-            <!-- # SAN ITAL 14px - 14px -->
-            <p class="blog__post-date">3 Nov, 2014</p>
-            <p class="blog__post-text">
+            <h3 class="blog__post__title">Design Your Mind</h3>
+            <!-- # HEL ITAL 14px - 14px -->
+            <p class="blog__post__date">3 Nov, 2014</p>
+            <p class="blog__post__text">
               <!-- # HEL 14px - 14px -->
               In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam
               nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.
             </p>
             <!-- # HEL 14px - 14px -->
-            <a class="blog__post-link" href="">Read More</a>
+            <a class="blog__post__link" href="">Read More</a>
           </article>
 
           <article class="blog__post">
-            <img class="blog__post__img" src="" alt="" />
-            <h3 class="blog__post-title">Winter Is Coming</h3>
-            <p class="blog__post-date">3 Nov, 2014</p>
-            <p class="blog__post-text">
+            <img class="blog__post__img" src="./assets/img/winter-is-coming.png" alt="" />
+            <h3 class="blog__post__title">Winter Is Coming</h3>
+            <p class="blog__post__date">3 Nov, 2014</p>
+            <p class="blog__post__text">
               In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam
               nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.
             </p>
-            <a class="blog__post-link" href="">Read More</a>
+            <a class="blog__post__link" href="">Read More</a>
           </article>
           <article class="blog__post">
-            <img class="blog__post__img" src="" alt="" />
-            <h3 class="blog__post-title">The Illustration</h3>
-            <p class="blog__post-date">3 Nov, 2014</p>
-            <p class="blog__post-text">
+            <img class="blog__post__img" src="./assets/img/the-illustration.png" alt="" />
+            <h3 class="blog__post__title">The Illustration</h3>
+            <p class="blog__post__date">3 Nov, 2014</p>
+            <p class="blog__post__text">
               In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam
               nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.
             </p>
-            <a class="blog__post-link" href="">Read More</a>
+            <a class="blog__post__link" href="">Read More</a>
           </article>
         </section>
       </section>
 
       <section class="quote">
         <section class="quote__container">
-          <p class="quote__text">
-            <!-- # SAN 36px - 36px -->
-            In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam
-            nulla magna, gravida eget ultricies sit amet, hendrerit.
-          </p>
+          <section class="quote__content">
+            <p class="quote__text">
+              <!-- # SAN 36px - 36px -->
+              In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam
+              nulla magna, gravida eget ultricies sit amet, hendrerit.
+            </p>
 
-          <article class="btn__quote">
-            <!-- # HEL 18px - 18px -->
-            <a href=""><button type="button">Get a free quote</button></a>
-          </article>
+            <article class="btn__quote">
+              <!-- # HEL 18px - 18px -->
+              <a href=""><button type="button">Get a free quote</button></a>
+            </article>
+          </section>
         </section>
       </section>
 
@@ -176,54 +193,77 @@
         <p class="testimonials__subtitle">Some happy customers have to say.</p>
         <section class="testimonials__list">
           <article class="testimonials__item">
-            <img class="testimonials__img" src="" alt="" />
+            <img class="testimonials__img" src="./assets/img/john-doe.png" alt="" />
             <p class="testimonials__text">
               <!-- # HEL 14px - 14px -->
               In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam
               nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.
             </p>
-            <p class="testimonials__person"><span>Jhon Doe</span> Head of Ideas, Technext</p>
+            <p class="testimonials__person"><span>Jhon Doe</span> <br />Head of Ideas, Technext</p>
           </article>
           <article class="testimonials__item">
-            <img class="testimonials__img" src="" alt="" />
+            <img class="testimonials__img" src="./assets/img/jane-doe.png" alt="" />
             <p class="testimonials__text">
               In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam
               nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.
             </p>
-            <p class="testimonials__person"><span>Jane Doe</span> CEO, Apple Inc</p>
+            <p class="testimonials__person"><span>Jane Doe</span> <br />CEO, Apple Inc</p>
           </article>
 
           <article class="testimonials__item">
-            <img class="testimonials__img" src="" alt="" />
+            <img class="testimonials__img" src="./assets/img/albert-doe.png" alt="" />
             <p class="testimonials__text">
               In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam
               nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.
             </p>
-            <p class="testimonials__person"><span>Albert Doe</span> Team Lead, Design Studio</p>
+            <p class="testimonials__person">
+              <span>Albert Doe</span> <br />
+              Team Lead, Design Studio
+            </p>
           </article>
         </section>
       </section>
 
       <section class="contact">
         <section class="contact__container">
-          <!-- # SAN 36px - 36px -->
-          <h2 class="contact__title">Contact Us</h2>
-          <!-- # HEL 14px - 14px -->
-          <p class="contact__subtitle">Feel free to drop us a line.</p>
-          <form class="contact__form">
-            <input class="contact__input" type="text" placeholder="Your Name" />
-            <input class="contact__input" type="email" placeholder="Your Email" />
-            <textarea class="contact__input" placeholder="Your Message"></textarea>
+          <section class="contact__form__container">
+            <!-- # SAN 36px - 36px -->
+            <h2 class="contact__title">Contact Us</h2>
             <!-- # HEL 14px - 14px -->
-            <button class="contact__btn" type="submit">Say Hello</button>
-          </form>
+            <p class="contact__subtitle">Feel free to drop us a line.</p>
+
+            <form class="contact__form">
+              <article class="input__field">
+                <input class="contact__input" type="text" name="name" id="name" placeholder="Your Name" />
+                <label for="name"></label>
+              </article>
+
+              <article class="input__field">
+                <input class="contact__input" type="email" name="email" id="email" placeholder="Enter Email" />
+                <label for="email"></label>
+              </article>
+
+              <article class="input__field">
+                <textarea
+                  class="contact__input"
+                  name="textarea"
+                  id="textarea"
+                  rows="2"
+                  cols="50"
+                  placeholder="Write Something"></textarea>
+                <label for="textarea"></label>
+              </article>
+              <!-- # HEL 14px - 14px -->
+              <button class="contact__btn" type="submit">Say Hello</button>
+            </form>
+          </section>
         </section>
       </section>
     </main>
 
-    <footer class="footer">
+    <footer>
       <!-- # HEL 14px - 14px -->
-      <p class="footer__copyright">© Copyright New Interior</p>
+      <p class="footer__copyright">© Copyright New Interior.</p>
     </footer>
   </body>
 </html>
