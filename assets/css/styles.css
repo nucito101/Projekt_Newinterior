@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 100%;
+  --font-color: #ffffff;
+  --p-color: #6a6a6a;
+  --main-h2-color: #3a4f52;
+  --bg-grid-color: #c3c9cc;
+  --bg-section-op: #000000;
+  --read-more-color: #4da7ca;
+  --form-color: #cccccc;
+  --imghover-color: #02383a;
+  --bg-contact-img-color: #405162;
+  --footer-color: #2b3e51;
+  --bg-color: #f1f0f0;
+  /* Contact form: bg opacity 20% */
+}
+
+@font-face {
+  font-family: "alegreya_sans";
+  src: url(../fonts/Alegreya_Sans/AlegreyaSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "alegreya_sc";
+  src: url(../fonts/Alegreya_SC/AlegreyaSC-Regular.ttf);
+}
+
+@font-face {
+  font-family: "helvetica_neue";
+  src: url(../fonts/Helvetica_Neue/HelveticaNeue-Roman.otf);
+}
+
+@font-face {
+  font-family: "nixie_one";
+  src: url(../fonts/Nixie_One/NixieOne-Regular.ttf);
+}
