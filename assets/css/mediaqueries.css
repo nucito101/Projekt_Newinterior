@@ -1,6 +1,6 @@
 @media only screen and (min-width: 48em) {
   .section__btn {
-    transform: translate(670%, -130%);
+    transform: translate(74vw, -130%);
   }
 
   .works__gallery {
@@ -60,7 +60,7 @@
 
 @media only screen and (min-width: 65em) {
   .section__btn {
-    transform: translate(920%, -130%);
+    transform: translate(78vw, -130%);
   }
 
   .section__btn,

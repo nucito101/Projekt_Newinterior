@@ -149,7 +149,7 @@ nav h2 {
   text-align: center;
   align-content: center;
   position: absolute;
-  transform: translate(300%, -130%);
+  transform: translate(60vw, -130%);
 }
 
 .section__btn button {
