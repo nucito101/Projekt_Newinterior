@@ -122,8 +122,8 @@ nav h2 {
 /*! ================================================================== */
 
 .section-container {
-  padding-top: 4%;
-  padding-left: 4%;
+  padding-top: 6%;
+  padding-left: 7%;
 }
 
 .section__title {
@@ -149,7 +149,7 @@ nav h2 {
   text-align: center;
   align-content: center;
   position: absolute;
-  transform: translate(250%, -130%);
+  transform: translate(300%, -130%);
 }
 
 .section__btn button {
@@ -161,15 +161,11 @@ nav h2 {
 
 .works__gallery {
   margin: 100px auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  width: 90vw;
 }
 
 .grid__section {
-  width: 80%;
-  height: 15rem;
+  height: 17rem;
   margin: 20px auto;
   position: relative;
 }
@@ -214,7 +210,7 @@ nav h2 {
   align-items: center;
 }
 
-.services__container {
+.shadow__background {
   background-color: #00000033;
   margin: 25% auto;
   height: 90%;
@@ -311,22 +307,20 @@ nav h2 {
 }
 
 .quote__content {
-  background-color: #00000033;
   height: 70%;
   width: 80%;
-  margin: 30% auto;
-  text-align: center;
+  padding: 2%;
 }
 
 .quote__text {
-  font-size: clamp(2.5rem, 2.1966rem + 1.2945vw, 3.75rem);
+  font-size: 2.5rem;
   font-family: "alegreya_sans";
   color: var(--font-color);
   margin-bottom: 20%;
 }
 
 .btn__quote button {
-  font-size: clamp(1.25rem, 1.0983rem + 0.6472vw, 1.875rem);
+  font-size: 1.25rem;
   font-family: "helvetica_neue";
   text-align: center;
   padding: 1em 1.8em;
@@ -399,11 +393,9 @@ nav h2 {
 }
 
 .contact__form__container {
-  background-color: #00000033;
   margin: auto;
   height: 70%;
   width: 100%;
-  text-align: center;
 }
 
 .contact__title {
@@ -462,12 +454,11 @@ nav h2 {
 
 footer {
   min-height: 11rem;
-  /* height: 28vh; */
   background-color: var(--footer-color);
 }
 
 .footer__copyright {
-  font-size: clamp(1.25rem, 1.1893rem + 0.2589vw, 1.5rem);
+  font-size: 1rem;
   line-height: 1.6;
   color: var(--font-color);
   position: absolute;

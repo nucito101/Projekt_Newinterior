@@ -1,16 +1,20 @@
 @media only screen and (min-width: 48em) {
   .section__btn {
-    transform: translate(650%, -130%);
+    transform: translate(670%, -130%);
   }
 
   .works__gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 90vw;
   }
 
   .grid__section {
-    position: inherit;
-    width: 30%;
+    width: 31%;
     height: 12rem;
   }
 
@@ -35,10 +39,6 @@
     margin-bottom: 5%;
   }
 
-  .contact__container {
-    background-size: 190%;
-  }
-
   .contact__title {
     margin-top: 5%;
   }
@@ -57,5 +57,98 @@
   }
 }
 
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 65em) {
+  .section__btn {
+    transform: translate(920%, -130%);
+  }
+
+  .section__btn,
+  .section__btn button,
+  .grid__section__hover__btn button {
+    transition: background-color 0.5s ease, transform 0.3s ease;
+  }
+  .section__btn:hover,
+  .section__btn:hover button {
+    background-color: #02383a;
+    color: white;
+  }
+
+  .grid__section {
+    width: 31%;
+    height: 16rem;
+    overflow: hidden;
+  }
+
+  .grid__section__img {
+    transition: transform 0.3s linear;
+  }
+
+  .grid__section__hover__btn button {
+    padding: 0.8em 1em;
+  }
+
+  .grid__section:hover .grid__section__hover__btn {
+    display: flex;
+  }
+  .grid__section__hover__btn button:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .grid__section:hover .grid__section__img {
+    transform: scale(1.5);
+  }
+  .services {
+    background-size: 130%;
+  }
+  .services__container {
+    width: 95%;
+    margin: 5% auto;
+  }
+
+  .services__list {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+    margin-top: 2%;
+  }
+
+  .blog__list {
+    margin-top: 5%;
+  }
+
+  .quote__content {
+    width: 90%;
+    margin-top: 8%;
+  }
+
+  .quote__text {
+    margin-bottom: 4%;
+  }
+
+  .btn__quote button {
+    margin-bottom: 2%;
+  }
+
+  .contact__title {
+    margin-top: 2%;
+  }
+
+  .contact__subtitle {
+    margin-top: 2%;
+    margin-bottom: 6%;
+  }
+
+  .testimonials__list {
+    display: flex;
+    align-items: center;
+  }
+
+  .contact__form__container {
+    width: 80%;
+  }
+
+  .footer__copyright {
+    margin-left: 10%;
+  }
 }
